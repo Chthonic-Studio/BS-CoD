@@ -31,6 +31,11 @@ Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Universal.Runtime.ref.dll_540
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Universal.Shaders.ref.dll_9468B054363B0720.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Searcher.Editor.ref.dll_12B7E1785E41BE0E.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.Editor.ref.dll_CB39FB503C273871.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.MacBLAS.ref.dll_62CEE95A2A6BB75D.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.ONNX.ref.dll_FCBF15958E98896D.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.ref.dll_8C78BABC7A4AC340.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.iOSBLAS.ref.dll_AC5B173A7C19375B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.ShaderGraph.Editor.ref.dll_0F50152946DB09D0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm
