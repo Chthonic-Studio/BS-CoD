@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     //Basic movement and jumping
     public float speed;
-    public float jumpForce = 4f;
+    public float jumpForce = 8f;
     private Rigidbody2D rb;
     private bool isGrounded;
     private BoxCollider2D coll;
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
         animator.SetFloat("Speed", Mathf.Abs(move));
 
-        if (isRunning = true)
+        if (isRunning)
         {
             speed = 5f;
         }

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     [Header("Health")]
-    [SerializeField] private float startingHealth;
+    [SerializeField] public float startingHealth;
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
@@ -19,6 +19,15 @@ public class Health : MonoBehaviour
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;
 
+    //Healthbar
+
+    private HealthBar _healthBar;
+
+
+    private void Start()
+    {
+        _healthBar = GetComponentInChildren<HealthBar>();
+    }
     //Health management
     private void Awake()
     {
@@ -30,6 +39,10 @@ public class Health : MonoBehaviour
     //Take Damage
     public void TakeDamage(float _damage)
     {
+        currentHealth -= _damage;
+
+        _healthBar.UpdateHealthBar(startingHealth, currentHealth);
+        
         if (invulnerable) return;
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 

@@ -10,6 +10,9 @@ scopes = {
 	"last_search.DD5CDD96" = ""
 	"OpenInspectorPreview.DD5CDD96" = "0"
 	"currentGroup.DD5CDD96" = "all"
+	"last_search.DE949528" = "UI Input Module"
+	"OpenInspectorPreview.DE949528" = "0"
+	"currentGroup.DE949528" = "all"
 }
 providers = {
 	adb = {
@@ -56,6 +59,9 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"UI Input Module"
+	"All Pointer As Is"
+	"In"
 ]
 searchItemFavorites = [
 ]
